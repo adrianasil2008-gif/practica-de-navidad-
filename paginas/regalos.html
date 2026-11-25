@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Regalos</title>
+    <link rel="stylesheet" href="../css/estilo.css">
+    <script src="../js/archivo.js"></script>
+</head>
+<body>
+    <header>
+        <h1>NAVIDAD</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="../index.html">Bienvenida</a></li>
+            <li><a href="historia.html">Historia</a></li>
+            <li><a href="personajes.html">Personajes</a></li>
+            <li><a href="regalos.html">Regalos</a></li>
+            <li><a href="comida.html">Comida</a></li>
+        </ul>
+    </nav>
+    <div class="regalo">
+        <div class="intro">
+            <h1>¡Hola! Soy el ayudante de Papá Noel!</h1>
+            <p>Estoy aquí para ayudarte a escribir tu lista de deseos. <br> ¿Cómo funciona?
+                Es cribe el nombre del regalo que te gustaría recibir y presiona el botón para agregarlo. Así poco a poco armarás tu lista completa.Puedes agregar tantos como quieras! Que la magia de la Navidad llene tu corazón.</p>
+        </div>
+        <div class="lista">
+            <h2>Lista de Regalos</h2>
+            <p class="l" id="mostrar"></p>
+        </div>
+        <br>
+        <div class="formulario">
+            <form action="">
+                <input type="text" id="inr" placeholder="ingrese regalo">
+            </form>
+            <br>
+            <button type="button" onclick="lista()">Agregar regalo</button>
+            <button type="button" onclick="enviar()">Enviar</button>
+        </div>
+        <h3 id="listo"></h3>
+    </div>
+    
+    <footer>
+        <p>Pagina creada por: Adriana Damaris Sillo Flores</p>
+    </footer>
+    
+</body>
+</html>

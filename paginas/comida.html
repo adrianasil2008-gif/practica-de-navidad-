@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda</title>
+    <link rel="stylesheet" href="../css/estilo.css">
+    <script src="../js/archivo.js"></script>
+</head>
+<body>
+    <header>
+        <h1>NAVIDAD</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="../index.html">Bienvenida</a></li>
+            <li><a href="historia.html">Historia</a></li>
+            <li><a href="personajes.html">Personajes</a></li>
+            <li><a href="regalos.html">Regalos</a></li>
+            <li><a href="comida.html">Comida</a></li>
+        </ul>
+    </nav>
+    <div class="comida">
+        <h2>TIENDA DE COMIDA</h2>
+        <div class="c1">
+            <section>
+                <h3>Pollo al Horno</h3>
+                <img src="../imagenes/pollo.jpg" alt="">
+                <p>Pollo entero jugoso, sazonado con hierbas y especias, acompañado de papas doradas y ensalada fresca.</p>
+                <b><p>Bs 90.00 — Para 5-6 personas</p></b>
+                <form action="">
+                    <label for=""></label>
+                    <input type="text" placeholder="ingrese cantidad" value="" id="p1">
+                </form>
+                <p id="tp" class="subprecio"></p>
+            </section>
+            <section>
+                <h3>Picana Navideña</h3>
+                <img src="../imagenes/picana.jpg" alt="">
+                 <p>Caldo caliente y sabroso con pollo, carne, papas, verduras y especias. Tradición boliviana</p>
+                    <b><p>Bs 95.00 — Para 5 personas</p></b>
+                <form action="">
+                    <label for=""></label>
+                    <input type="text" placeholder="ingrese cantidad" value="" id="p2">
+                </form>
+                <p id="tpi" class="subprecio"></p>
+            </section>
+        </div>
+        <div class="c1">
+            <section>
+                <h3>Paneton</h3>
+                <img src="../imagenes/paneton.jpg" alt="">
+                <p>Pan dulce esponjoso con chispas de chocolate. Suave, delicioso y perfecto para los amantes del cacao.</p>
+                <b><p>Bs 40.00 — 1 unidad de 700g</p></b>
+               <form action="">
+                    <label for=""></label>
+                    <input type="text" placeholder="ingrese cantidad" value="" id="p3">
+                </form>
+                <p id="tpa" class="subprecio"></p>
+            </section>
+            <section>
+                <h3>Rosca Navideña</h3>
+                <img src="../imagenes/rosca.jpg" alt="">
+                <p>Pan dulce decorado con frutas confitadas, pasas y nueces. ¡Hermoso y rico para compartir!</p>
+                <b><p> Bs 45.00 — 1 unidad grande</p></b>
+                <form action="">
+                    <label for=""></label>
+                    <input type="text" placeholder="ingrese cantidad" value="" id="p4">
+                </form>
+                <p id="tr" class="subprecio"></p>
+            </section>
+        </div>
+        <section>
+            <button type="button" onclick="calculartotal()">Calcular total a pagar</button>
+           <p class="total" id="totalc"></p>
+        </section>
+    </div>
+    <footer>
+        <p>Pagina creada por: Adriana Damaris Sillo Flores</p>
+    </footer>
+</body>
+</html>
